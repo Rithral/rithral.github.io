@@ -1,0 +1,78 @@
+body{
+background-image: url(https://thumbs.dreamstime.com/b/trendy-abstract-liquid-blue-background-your-landing-page-design-minimal-website-designs-231884001.jpg);
+background-size: cover;
+}
+
+.form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/564x/e4/44/9f/e4449f4f9e06edfb0a97b8415a7bfdf8.jpg);
+    background-size: cover;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid blue;
+   border-radius: 10px;
+   
+  }
+  .form-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+   
+  }
+  .form-item label {
+    width: 150px;
+    font-weight: bold;
+    margin-right: 20px;
+   
+  }
+  .form-item input,
+  .form-item select {
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    
+  }
+  .form-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+   
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .navigation {
+    
+    
+    list-style: none;
+    justify-content: flex-start;
+    display: flex;  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+  }
+  .navigation a{
+    background: rgba(0,0,255,0.7);
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    color:white
+  }
+  .navigation a:hover{
+    background: rgba(255, 0, 0, 0.7);
+    border-radius: 7px;
+    color: white;
+  }
